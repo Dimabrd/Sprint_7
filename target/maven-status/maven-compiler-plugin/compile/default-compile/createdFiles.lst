@@ -1,0 +1,6 @@
+ru/praktikum/steps/CourierSteps.class
+ru/praktikum/Main.class
+ru/praktikum/model/Order.class
+ru/praktikum/model/Courier.class
+ru/praktikum/config/RestConfig.class
+ru/praktikum/steps/OrderSteps.class
