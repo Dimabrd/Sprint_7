@@ -13,8 +13,6 @@ import ru.praktikum.steps.OrderSteps;
 
 import java.util.Arrays;
 import java.util.Collection;
-
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
 @RunWith(Parameterized.class)

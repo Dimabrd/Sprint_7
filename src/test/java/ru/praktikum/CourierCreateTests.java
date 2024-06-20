@@ -4,7 +4,6 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
-import io.restassured.parsing.Parser;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
 import org.junit.Before;
@@ -12,7 +11,6 @@ import org.junit.Test;
 import ru.praktikum.model.Courier;
 import ru.praktikum.steps.CourierSteps;
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class CourierCreateTests {
 
